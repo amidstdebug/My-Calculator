@@ -8,14 +8,9 @@ elif number_of_numbers == 2 :
     print("Okay, let's begin!")
     num1 = int(input("What is your first number? "))
     num2 = int(input("What is your second number? "))
-    operations = {
-    '+': operator.add,
-    '-': operator.sub,
-    '*': operator.mul,
-    '/': operator.truediv,
-}
+    operations = {'+': operator.add, '-': operator.sub,'*': operator.mul,'/': operator.truediv,}
     op = operations[calculation_type]
     result = op(num1, num2)
     print("Hi " + name + ", your result is " + str(result) + ".")
 else:
-    print("Insufficient computational powaa baby!")
+    print("Insufficient computational power and lack of available developer resources.")
