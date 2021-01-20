@@ -18,4 +18,4 @@ elif number_of_numbers == 2 :
     result = op(num1, num2)
     print("Hi " + name + ", your result is " + str(result) + ".")
 else:
-    print("Insufficient computational power.")
+    print("Insufficient computational powaa baby!")
