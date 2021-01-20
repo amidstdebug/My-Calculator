@@ -20,3 +20,4 @@ elif number_of_numbers == 2 :
 else:
     print("Insufficient computational powa.")
 
+
